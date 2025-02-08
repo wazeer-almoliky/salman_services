@@ -8,7 +8,7 @@ class Home extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      appBar: CustomAppBar(title: 'سلمــان للخدمات العامة', backgroundColor: AppColor.primary, actions: []),
+      appBar: CustomAppBar(title: 'سلمــان للخدمات العامة', backgroundColor: const Color.fromARGB(255, 9, 51, 10), actions: []),
       body: Center(
         child: Text('سلمــان للخدمات العامة',style: TextStyle(fontSize: 30,fontWeight: FontWeight.bold),),
       ),
